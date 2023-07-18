@@ -18,8 +18,8 @@ const readline = require("readline").createInterface({
   output: process.stdout,
 });
 
-readline.question("Enter a decimal number: ", (decimal) => {
-  const binary = decimalToBinary(parseInt(decimal));
-  console.log("Binary equivalent:", binary);
+// readline.question("Enter a decimal number: ", (decimal) => {
+//   const binary = decimalToBinary(parseInt(decimal));
+//   console.log("Binary equivalent:", binary);
   readline.close();
 });
